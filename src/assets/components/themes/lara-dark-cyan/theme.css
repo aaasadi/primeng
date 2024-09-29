@@ -1767,8 +1767,8 @@
     color: rgba(255, 255, 255, 0.87);
     transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
   }
-  .p-selectbutton .p-button .p-button-icon-left,
-.p-selectbutton .p-button .p-button-icon-right {
+  .p-selectbutton .p-button .p-button-icon-start,
+.p-selectbutton .p-button .p-button-icon-end {
     color: rgba(255, 255, 255, 0.6);
   }
   .p-selectbutton .p-button:not(.p-disabled):not(.p-highlight):hover {
@@ -1776,8 +1776,8 @@
     border-color: #424b57;
     color: rgba(255, 255, 255, 0.87);
   }
-  .p-selectbutton .p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-left,
-.p-selectbutton .p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-right {
+  .p-selectbutton .p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-start,
+.p-selectbutton .p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-end {
     color: rgba(255, 255, 255, 0.6);
   }
   .p-selectbutton .p-button.p-highlight {
@@ -1785,8 +1785,8 @@
     border-color: #22d3ee;
     color: #030712;
   }
-  .p-selectbutton .p-button.p-highlight .p-button-icon-left,
-.p-selectbutton .p-button.p-highlight .p-button-icon-right {
+  .p-selectbutton .p-button.p-highlight .p-button-icon-start,
+.p-selectbutton .p-button.p-highlight .p-button-icon-end {
     color: #030712;
   }
   .p-selectbutton .p-button.p-highlight:hover {
@@ -1794,8 +1794,8 @@
     border-color: #67e8f9;
     color: #030712;
   }
-  .p-selectbutton .p-button.p-highlight:hover .p-button-icon-left,
-.p-selectbutton .p-button.p-highlight:hover .p-button-icon-right {
+  .p-selectbutton .p-button.p-highlight:hover .p-button-icon-start,
+.p-selectbutton .p-button.p-highlight:hover .p-button-icon-end {
     color: #030712;
   }
 
@@ -1861,8 +1861,8 @@
     color: rgba(255, 255, 255, 0.87);
     transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
   }
-  .p-togglebutton.p-button .p-button-icon-left,
-.p-togglebutton.p-button .p-button-icon-right {
+  .p-togglebutton.p-button .p-button-icon-start,
+.p-togglebutton.p-button .p-button-icon-end {
     color: rgba(255, 255, 255, 0.6);
   }
   .p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover {
@@ -1870,8 +1870,8 @@
     border-color: #424b57;
     color: rgba(255, 255, 255, 0.87);
   }
-  .p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-left,
-.p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-right {
+  .p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-start,
+.p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-end {
     color: rgba(255, 255, 255, 0.6);
   }
   .p-togglebutton.p-button.p-highlight {
@@ -1879,8 +1879,8 @@
     border-color: #22d3ee;
     color: #030712;
   }
-  .p-togglebutton.p-button.p-highlight .p-button-icon-left,
-.p-togglebutton.p-button.p-highlight .p-button-icon-right {
+  .p-togglebutton.p-button.p-highlight .p-button-icon-start,
+.p-togglebutton.p-button.p-highlight .p-button-icon-end {
     color: #030712;
   }
   .p-togglebutton.p-button.p-highlight:hover {
@@ -1888,8 +1888,8 @@
     border-color: #67e8f9;
     color: #030712;
   }
-  .p-togglebutton.p-button.p-highlight:hover .p-button-icon-left,
-.p-togglebutton.p-button.p-highlight:hover .p-button-icon-right {
+  .p-togglebutton.p-button.p-highlight:hover .p-button-icon-start,
+.p-togglebutton.p-button.p-highlight:hover .p-button-icon-end {
     color: #030712;
   }
 
@@ -2101,11 +2101,11 @@
   .p-button .p-button-label {
     transition-duration: 0.2s;
   }
-  .p-button .p-button-icon-left {
-    margin-right: 0.5rem;
+  .p-button .p-button-icon-start {
+    margin-inline-end: 0.5rem;
   }
-  .p-button .p-button-icon-right {
-    margin-left: 0.5rem;
+  .p-button .p-button-icon-end {
+    margin-inline-start: 0.5rem;
   }
   .p-button .p-button-icon-bottom {
     margin-top: 0.5rem;
@@ -2114,7 +2114,7 @@
     margin-bottom: 0.5rem;
   }
   .p-button .p-badge {
-    margin-left: 0.5rem;
+    margin-inline-start: 0.5rem;
     min-width: 1rem;
     height: 1rem;
     line-height: 1rem;
@@ -2131,8 +2131,8 @@
     width: 3rem;
     padding: 0.75rem 0;
   }
-  .p-button.p-button-icon-only .p-button-icon-left,
-.p-button.p-button-icon-only .p-button-icon-right {
+  .p-button.p-button-icon-only .p-button-icon-start,
+.p-button.p-button-icon-only .p-button-icon-end {
     margin: 0;
   }
   .p-button.p-button-icon-only.p-button-rounded {

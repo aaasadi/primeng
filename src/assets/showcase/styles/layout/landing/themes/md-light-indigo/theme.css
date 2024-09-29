@@ -860,10 +860,10 @@
   outline-offset: 0;
   box-shadow: none;
 }
-.landing-themes .p-button .p-button-icon-left {
+.landing-themes .p-button .p-button-icon-start {
   margin-right: 0.5rem;
 }
-.landing-themes .p-button .p-button-icon-right {
+.landing-themes .p-button .p-button-icon-end {
   margin-left: 0.5rem;
 }
 .landing-themes .p-button .p-button-icon-bottom {
@@ -890,8 +890,8 @@
   width: 3rem;
   padding: 0.714rem;
 }
-.landing-themes .p-button.p-button-icon-only .p-button-icon-left,
-.landing-themes .p-button.p-button-icon-only .p-button-icon-right {
+.landing-themes .p-button.p-button-icon-only .p-button-icon-start,
+.landing-themes .p-button.p-button-icon-only .p-button-icon-end {
   margin: 0;
 }
 .landing-themes .p-button.p-button-icon-only.p-button-rounded {

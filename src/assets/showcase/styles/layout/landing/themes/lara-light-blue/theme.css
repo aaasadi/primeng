@@ -251,10 +251,10 @@
 .landing-themes .p-button .p-button-label {
   transition-duration: 0.2s;
 }
-.landing-themes .p-button .p-button-icon-left {
+.landing-themes .p-button .p-button-icon-start {
   margin-right: 0.5rem;
 }
-.landing-themes .p-button .p-button-icon-right {
+.landing-themes .p-button .p-button-icon-end {
   margin-left: 0.5rem;
 }
 .landing-themes .p-button .p-button-icon-bottom {
@@ -281,8 +281,8 @@
   width: 3rem;
   padding: 0.75rem 0;
 }
-.landing-themes .p-button.p-button-icon-only .p-button-icon-left,
-.landing-themes .p-button.p-button-icon-only .p-button-icon-right {
+.landing-themes .p-button.p-button-icon-only .p-button-icon-start,
+.landing-themes .p-button.p-button-icon-only .p-button-icon-end {
   margin: 0;
 }
 .landing-themes .p-button.p-button-icon-only.p-button-rounded {
