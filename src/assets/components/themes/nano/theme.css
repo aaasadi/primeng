@@ -1266,7 +1266,7 @@
     background: #ffffff;
     width: 0.825rem;
     height: 0.825rem;
-    left: 0.165rem;
+      inset-inline-start: 0.165rem;
     margin-top: -0.4125rem;
     border-radius: 50%;
     transition-duration: 0.2s;

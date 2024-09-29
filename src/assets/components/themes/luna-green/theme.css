@@ -1266,10 +1266,7 @@
     transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
     border-radius: 30px;
   }
-  .p-inputswitch .p-inputswitch-slider:before {
-    background: #323232;
-    width: 1.25rem;
-    height: 1.25rem;
+
     left: 0.25rem;
     margin-top: -0.625rem;
     border-radius: 50%;

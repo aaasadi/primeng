@@ -1289,14 +1289,17 @@
     background: #ffffff;
     width: 1.5rem;
     height: 1.5rem;
-    left: -1px;
+      inset-inline-start: -1px;
     margin-top: -0.75rem;
     border-radius: 50%;
     transition-duration: 0.2s;
   }
-  .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before {
+  html[dir="ltr"] .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before {
     transform: translateX(1.5rem);
   }
+    html[dir="rtl"] .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before {
+        transform: translateX(-1.5rem);
+    }
   .p-inputswitch.p-focus .p-inputswitch-slider {
     outline: 0 none;
     outline-offset: 0;
@@ -1362,7 +1365,7 @@
   }
 
   .p-float-label > label {
-    left: 1rem;
+    inset-inline-start: 1rem;
     color: rgba(0, 0, 0, 0.6);
     transition-duration: 0.2s;
   }

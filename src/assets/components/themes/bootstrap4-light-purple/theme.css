@@ -1270,7 +1270,7 @@
     background: #ffffff;
     width: 1.25rem;
     height: 1.25rem;
-    left: 0.25rem;
+      inset-inline-start: 0.25rem;
     margin-top: -0.625rem;
     border-radius: 4px;
     transition-duration: 0.15s;
@@ -1343,7 +1343,7 @@
   }
 
   .p-float-label > label {
-    left: 0.75rem;
+    inset-inline-start: 0.75rem;
     color: #6c757d;
     transition-duration: 0.15s;
   }
