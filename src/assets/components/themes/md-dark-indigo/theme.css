@@ -201,8 +201,8 @@
 
 .p-editor-container .p-editor-toolbar {
     background: #1e1e1e;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
+    border-start-end-radius: 4px;
+    border-start-start-radius: 4px;
 }
 
 .p-editor-container .p-editor-toolbar.ql-snow {
@@ -268,8 +268,8 @@
 }
 
 .p-editor-container .p-editor-content {
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-end-end-radius: 4px;
+    border-end-start-radius: 4px;
 }
 
 .p-editor-container .p-editor-content.ql-snow {
@@ -279,8 +279,8 @@
 .p-editor-container .p-editor-content .ql-editor {
     background: #1e1e1e;
     color: rgba(255, 255, 255, 0.87);
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-end-end-radius: 4px;
+    border-end-start-radius: 4px;
 }
 
 .p-editor-container .ql-snow.ql-toolbar button:hover,
@@ -399,11 +399,11 @@
     }
 
     .p-autocomplete .p-autocomplete-loader {
-        right: 1rem;
+        inset-inline-end: 1rem;
     }
 
     .p-autocomplete.p-autocomplete-dd .p-autocomplete-loader {
-        right: 4rem;
+        inset-inline-end: 4rem;
     }
 
     .p-autocomplete:not(.p-disabled):hover .p-autocomplete-multiple-container {
@@ -443,7 +443,7 @@
     }
 
     .p-autocomplete .p-autocomplete-multiple-container .p-autocomplete-token .p-autocomplete-token-icon {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-autocomplete .p-autocomplete-multiple-container .p-autocomplete-token.p-focus {
@@ -519,17 +519,17 @@
     }
 
     p-autocomplete.p-autocomplete-clearable .p-inputtext {
-        padding-right: 3rem;
+        padding-inline-end: 3rem;
     }
 
     p-autocomplete.p-autocomplete-clearable .p-autocomplete-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 1rem;
+        inset-inline-end: 1rem;
     }
 
     p-autocomplete.p-autocomplete-clearable .p-autocomplete-dd .p-autocomplete-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 4rem;
+        inset-inline-end: 4rem;
     }
 
     p-calendar.ng-dirty.ng-invalid > .p-calendar > .p-inputtext {
@@ -568,8 +568,8 @@
         font-weight: 500;
         margin: 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-datepicker .p-datepicker-header .p-datepicker-prev,
@@ -615,7 +615,7 @@
     }
 
     .p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-datepicker table {
@@ -749,20 +749,20 @@
     }
 
     .p-datepicker.p-datepicker-multiple-month .p-datepicker-group {
-        border-left: 1px solid rgba(255, 255, 255, 0.12);
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
+        border-inline-start: 1px solid rgba(255, 255, 255, 0.12);
+        padding-inline-end: 0.5rem;
+        padding-inline-start: 0.5rem;
         padding-top: 0;
         padding-bottom: 0;
     }
 
     .p-datepicker.p-datepicker-multiple-month .p-datepicker-group:first-child {
-        padding-left: 0;
-        border-left: 0 none;
+        padding-inline-start: 0;
+        border-inline-start: 0 none;
     }
 
     .p-datepicker.p-datepicker-multiple-month .p-datepicker-group:last-child {
-        padding-right: 0;
+        padding-inline-end: 0;
     }
 
     .p-datepicker:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):hover {
@@ -796,17 +796,17 @@
     }
 
     p-calendar.p-calendar-clearable .p-inputtext {
-        padding-right: 3rem;
+        padding-inline-end: 3rem;
     }
 
     p-calendar.p-calendar-clearable .p-calendar-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 1rem;
+        inset-inline-end: 1rem;
     }
 
     p-calendar.p-calendar-clearable .p-calendar-w-btn .p-calendar-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 4rem;
+        inset-inline-end: 4rem;
     }
 
     @media screen and (max-width: 769px) {
@@ -851,8 +851,8 @@
         background: transparent;
         color: rgba(255, 255, 255, 0.6);
         width: 2.357rem;
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-start-end-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-cascadeselect.p-invalid.p-component {
@@ -940,12 +940,12 @@
     }
 
     p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-label {
-        padding-right: 1rem;
+        padding-inline-end: 1rem;
     }
 
     p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 2.357rem;
+        inset-inline-end: 2.357rem;
     }
 
     .p-overlay-modal .p-cascadeselect-sublist .p-cascadeselect-panel {
@@ -1044,7 +1044,7 @@
     }
 
     .p-checkbox-label {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     p-tristatecheckbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
@@ -1069,7 +1069,7 @@
 
     .p-chips .p-chips-multiple-container .p-chips-token {
         padding: 0.5rem 1rem;
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
         background: rgba(255, 255, 255, 0.12);
         color: rgba(255, 255, 255, 0.87);
         border-radius: 16px;
@@ -1081,7 +1081,7 @@
     }
 
     .p-chips .p-chips-multiple-container .p-chips-token .p-chips-token-icon {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-chips .p-chips-multiple-container .p-chips-input-token {
@@ -1102,12 +1102,12 @@
     }
 
     p-chips.p-chips-clearable .p-inputtext {
-        padding-right: 2rem;
+        padding-inline-end: 2rem;
     }
 
     p-chips.p-chips-clearable .p-chips-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 1rem;
+        inset-inline-end: 1rem;
     }
 
     .p-colorpicker-preview,
@@ -1149,7 +1149,7 @@
     }
 
     .p-dropdown.p-dropdown-clearable .p-dropdown-label {
-        padding-right: 2rem;
+        padding-inline-end: 2rem;
     }
 
     .p-dropdown .p-dropdown-label {
@@ -1170,13 +1170,13 @@
         background: transparent;
         color: rgba(255, 255, 255, 0.6);
         width: 2.357rem;
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-start-end-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-dropdown .p-dropdown-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 2.357rem;
+        inset-inline-end: 2.357rem;
     }
 
     .p-dropdown.p-invalid.p-component {
@@ -1209,17 +1209,17 @@
         color: rgba(255, 255, 255, 0.87);
         background: #2b2b2b;
         margin: 0;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-dropdown-panel .p-dropdown-header .p-dropdown-filter {
-        padding-right: 2rem;
-        margin-right: -2rem;
+        padding-inline-end: 2rem;
+        margin-inline-end: -2rem;
     }
 
     .p-dropdown-panel .p-dropdown-header .p-dropdown-filter-icon {
-        right: 1rem;
+        inset-inline-end: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
@@ -1304,14 +1304,14 @@
         background: #1e1e1e;
         color: rgba(255, 255, 255, 0.6);
         border-top: 1px solid rgba(255, 255, 255, 0.3);
-        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-inline-start: 1px solid rgba(255, 255, 255, 0.3);
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         padding: 1rem 1rem;
         min-width: 2.357rem;
     }
 
     .p-inputgroup-addon:last-child {
-        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        border-inline-end: 1px solid rgba(255, 255, 255, 0.3);
     }
 
     .p-inputgroup > .p-component,
@@ -1324,7 +1324,7 @@
     .p-inputgroup > .p-component + .p-inputgroup-addon,
     .p-inputgroup > .p-inputwrapper > .p-inputtext + .p-inputgroup-addon,
     .p-inputgroup > .p-float-label > .p-component + .p-inputgroup-addon {
-        border-left: 0 none;
+        border-inline-start: 0 none;
     }
 
     .p-inputgroup > .p-component:focus,
@@ -1344,13 +1344,13 @@
     .p-inputgroup input:first-child,
     .p-inputgroup > .p-inputwrapper:first-child > .p-component,
     .p-inputgroup > .p-inputwrapper:first-child > .p-component > .p-inputtext {
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-start-start-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-inputgroup .p-float-label:first-child input {
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-start-start-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-inputgroup-addon:last-child,
@@ -1358,13 +1358,13 @@
     .p-inputgroup input:last-child,
     .p-inputgroup > .p-inputwrapper:last-child > .p-component,
     .p-inputgroup > .p-inputwrapper:last-child > .p-component > .p-inputtext {
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-start-end-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-inputgroup .p-float-label:last-child input {
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-start-end-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-fluid .p-inputgroup .p-button {
@@ -1376,12 +1376,12 @@
     }
 
     .p-icon-field-left .p-input-icon:first-of-type {
-        left: 1rem;
+        inset-inline-start: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
     .p-icon-field-right .p-input-icon:last-of-type {
-        right: 1rem;
+        inset-inline-end: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
@@ -1390,12 +1390,12 @@
     }
 
     p-inputmask.p-inputmask-clearable .p-inputtext {
-        padding-right: 3rem;
+        padding-inline-end: 3rem;
     }
 
     p-inputmask.p-inputmask-clearable .p-inputmask-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 1rem;
+        inset-inline-end: 1rem;
     }
 
     .p-inputmask.p-variant-filled {
@@ -1415,20 +1415,20 @@
     }
 
     p-inputnumber.p-inputnumber-clearable .p-inputnumber-input {
-        padding-right: 3rem;
+        padding-inline-end: 3rem;
     }
 
     p-inputnumber.p-inputnumber-clearable .p-inputnumber-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 1rem;
+        inset-inline-end: 1rem;
     }
 
     p-inputnumber.p-inputnumber-clearable .p-inputnumber-buttons-stacked .p-inputnumber-clear-icon {
-        right: 4rem;
+        inset-inline-end: 4rem;
     }
 
     p-inputnumber.p-inputnumber-clearable .p-inputnumber-buttons-horizontal .p-inputnumber-clear-icon {
-        right: 4rem;
+        inset-inline-end: 4rem;
     }
 
     p-inputnumber.p-inputnumber.p-variant-filled > .p-inputnumber-input {
@@ -1571,38 +1571,38 @@
 
     .p-input-icon-left > .p-icon-wrapper.p-icon,
     .p-input-icon-left > i:first-of-type {
-        left: 1rem;
+        inset-inline-start: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
     .p-input-icon-left > .p-inputtext {
-        padding-left: 3rem;
+        padding-inline-start: 3rem;
     }
 
     .p-input-icon-left.p-float-label > label {
-        left: 3rem;
+        inset-inline-start: 3rem;
     }
 
     .p-input-icon-right > .p-icon-wrapper,
     .p-input-icon-right > i:last-of-type {
-        right: 1rem;
+        inset-inline-end: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
     .p-input-icon-right > .p-inputtext {
-        padding-right: 3rem;
+        padding-inline-end: 3rem;
     }
 
     .p-icon-field-left > .p-inputtext {
-        padding-left: 3rem;
+        padding-inline-start: 3rem;
     }
 
     .p-icon-field-left.p-float-label > label {
-        left: 3rem;
+        inset-inline-start: 3rem;
     }
 
     .p-icon-field-right > .p-inputtext {
-        padding-right: 3rem;
+        padding-inline-end: 3rem;
     }
 
     ::-webkit-input-placeholder {
@@ -1657,21 +1657,21 @@
         color: rgba(255, 255, 255, 0.87);
         background: #1e1e1e;
         margin: 0;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-listbox .p-listbox-header .p-listbox-filter {
-        padding-right: 2rem;
+        padding-inline-end: 2rem;
     }
 
     .p-listbox .p-listbox-header .p-listbox-filter-icon {
-        right: 1rem;
+        inset-inline-end: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
     .p-listbox .p-listbox-header .p-checkbox {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-listbox .p-listbox-list {
@@ -1698,7 +1698,7 @@
     }
 
     .p-listbox .p-listbox-list .p-listbox-item .p-checkbox {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-listbox .p-listbox-list .p-listbox-item-group {
@@ -1774,22 +1774,22 @@
 
     .p-multiselect.p-multiselect-chip .p-multiselect-token {
         padding: 0.5rem 1rem;
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
         background: rgba(255, 255, 255, 0.12);
         color: rgba(255, 255, 255, 0.87);
         border-radius: 16px;
     }
 
     .p-multiselect.p-multiselect-chip .p-multiselect-token .p-multiselect-token-icon {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-multiselect .p-multiselect-trigger {
         background: transparent;
         color: rgba(255, 255, 255, 0.6);
         width: 2.357rem;
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-start-end-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-multiselect.p-variant-filled {
@@ -1809,12 +1809,12 @@
     }
 
     .p-multiselect-clearable .p-multiselect-label-container {
-        padding-right: 2rem;
+        padding-inline-end: 2rem;
     }
 
     .p-multiselect-clearable .p-multiselect-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 2.357rem;
+        inset-inline-end: 2.357rem;
     }
 
     .p-multiselect-panel {
@@ -1831,25 +1831,25 @@
         color: rgba(255, 255, 255, 0.87);
         background: #2b2b2b;
         margin: 0;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container .p-inputtext {
-        padding-right: 2rem;
+        padding-inline-end: 2rem;
     }
 
     .p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container .p-multiselect-filter-icon {
-        right: 1rem;
+        inset-inline-end: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
     .p-multiselect-panel .p-multiselect-header .p-checkbox {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-multiselect-panel .p-multiselect-header .p-multiselect-close {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
         width: 2.5rem;
         height: 2.5rem;
         color: rgba(255, 255, 255, 0.6);
@@ -1909,7 +1909,7 @@
     }
 
     .p-multiselect-panel .p-multiselect-items .p-multiselect-item .p-checkbox {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-multiselect-panel .p-multiselect-items .p-multiselect-item-group {
@@ -1973,21 +1973,21 @@
     }
 
     p-password.p-password-clearable .p-password-input {
-        padding-right: 3rem;
+        padding-inline-end: 3rem;
     }
 
     p-password.p-password-clearable .p-password-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 1rem;
+        inset-inline-end: 1rem;
     }
 
     p-password.p-password-clearable.p-password-mask .p-password-input {
-        padding-right: 5rem;
+        padding-inline-end: 5rem;
     }
 
     p-password.p-password-clearable.p-password-mask .p-password-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 3rem;
+        inset-inline-end: 3rem;
     }
 
     .p-radiobutton {
@@ -2072,7 +2072,7 @@
     }
 
     .p-radiobutton-label {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-rating {
@@ -2181,7 +2181,7 @@
 
     .p-slider.p-slider-horizontal .p-slider-handle {
         margin-top: -10px;
-        margin-left: -10px;
+        margin-inline-start: -10px;
     }
 
     .p-slider.p-slider-vertical {
@@ -2192,7 +2192,7 @@
     .p-slider.p-slider-vertical .p-slider-handle {
         height: 20px;
         width: 20px;
-        margin-left: -10px;
+        margin-inline-start: -10px;
         margin-bottom: -10px;
     }
 
@@ -2314,7 +2314,7 @@
 
     .p-treeselect.p-treeselect-chip .p-treeselect-token {
         padding: 0.5rem 1rem;
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
         background: rgba(255, 255, 255, 0.12);
         color: rgba(255, 255, 255, 0.87);
         border-radius: 16px;
@@ -2324,8 +2324,8 @@
         background: transparent;
         color: rgba(255, 255, 255, 0.6);
         width: 2.357rem;
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-start-end-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-treeselect.p-variant-filled {
@@ -2362,29 +2362,29 @@
         color: rgba(255, 255, 255, 0.87);
         background: #2b2b2b;
         margin: 0;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-treeselect-panel .p-treeselect-header .p-treeselect-filter-container {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-treeselect-panel .p-treeselect-header .p-treeselect-filter-container .p-treeselect-filter {
-        padding-right: 2rem;
+        padding-inline-end: 2rem;
     }
 
     .p-treeselect-panel .p-treeselect-header .p-treeselect-filter-container .p-treeselect-filter-icon {
-        right: 1rem;
+        inset-inline-end: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
     .p-treeselect-panel .p-treeselect-header .p-treeselect-filter-container.p-treeselect-clearable-filter .p-treeselect-filter {
-        padding-right: 4rem;
+        padding-inline-end: 4rem;
     }
 
     .p-treeselect-panel .p-treeselect-header .p-treeselect-filter-container.p-treeselect-clearable-filter .p-treeselect-filter-clear-icon {
-        right: 3rem;
+        inset-inline-end: 3rem;
     }
 
     .p-treeselect-panel .p-treeselect-header .p-treeselect-close {
@@ -2432,12 +2432,12 @@
     }
 
     p-treeselect.p-treeselect-clearable .p-treeselect-label-container {
-        padding-right: 2rem;
+        padding-inline-end: 2rem;
     }
 
     p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
         color: rgba(255, 255, 255, 0.6);
-        right: 3rem;
+        inset-inline-end: 3rem;
     }
 
     .p-button {
@@ -2605,11 +2605,11 @@
     }
 
     .p-button.p-button-loading-label-only .p-button-label {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-button.p-button-loading-label-only .p-button-loading-icon {
-        margin-right: 0;
+        margin-inline-end: 0;
     }
 
     .p-fluid .p-button {
@@ -3119,7 +3119,7 @@
     }
 
     .p-speeddial-direction-left .p-speeddial-item:first-child {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-speeddial-direction-right .p-speeddial-item {
@@ -3127,7 +3127,7 @@
     }
 
     .p-speeddial-direction-right .p-speeddial-item:first-child {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-speeddial-circle .p-speeddial-item,
@@ -3195,7 +3195,7 @@
     }
 
     .p-carousel .p-carousel-indicators .p-carousel-indicator {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
         margin-bottom: 0.5rem;
     }
 
@@ -3267,7 +3267,7 @@
 
     .p-datatable .p-sortable-column .p-sortable-column-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-datatable .p-sortable-column .p-sortable-column-badge {
@@ -3277,7 +3277,7 @@
         line-height: 1.143rem;
         color: #9FA8DA;
         background: rgba(159, 168, 218, 0.16);
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-datatable .p-sortable-column:not(.p-highlight):hover {
@@ -3357,7 +3357,7 @@
     }
 
     .p-datatable .p-datatable-tbody > tr > td .p-row-editor-save {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-datatable .p-datatable-tbody > tr:focus-visible {
@@ -3564,8 +3564,8 @@
         border-width: 0 0 1px 0;
         padding: 1rem 1rem;
         font-weight: 500;
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-end-start-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-dataview .p-dataview-loading-icon {
@@ -3578,7 +3578,7 @@
 
     .p-column-filter-row .p-column-filter-menu-button,
     .p-column-filter-row .p-column-filter-clear-button {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-column-filter-menu-button {
@@ -3689,8 +3689,8 @@
         color: rgba(255, 255, 255, 0.87);
         background: #2b2b2b;
         margin: 0;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-column-filter-overlay-menu .p-column-filter-constraint {
@@ -3759,11 +3759,11 @@
     }
 
     .p-orderlist .p-orderlist-filter-container .p-orderlist-filter-input {
-        padding-right: 2rem;
+        padding-inline-end: 2rem;
     }
 
     .p-orderlist .p-orderlist-filter-container .p-orderlist-filter-icon {
-        right: 1rem;
+        inset-inline-end: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
@@ -3855,7 +3855,7 @@
     }
 
     .p-organizationchart .p-organizationchart-line-left {
-        border-right: 1px solid rgba(255, 255, 255, 0.12);
+        border-inline-end: 1px solid rgba(255, 255, 255, 0.12);
         border-color: rgba(255, 255, 255, 0.12);
     }
 
@@ -3916,28 +3916,28 @@
     }
 
     .p-paginator .p-paginator-first {
-        border-top-left-radius: 50%;
-        border-bottom-left-radius: 50%;
+        border-start-start-radius: 50%;
+        border-end-start-radius: 50%;
     }
 
     .p-paginator .p-paginator-last {
-        border-top-right-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-start-end-radius: 50%;
+        border-end-end-radius: 50%;
     }
 
     .p-paginator .p-dropdown {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        margin-inline-start: 0.5rem;
+        margin-inline-end: 0.5rem;
         height: 3rem;
     }
 
     .p-paginator .p-dropdown .p-dropdown-label {
-        padding-right: 0;
+        padding-inline-end: 0;
     }
 
     .p-paginator .p-paginator-page-input {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        margin-inline-start: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-paginator .p-paginator-page-input .p-inputtext {
@@ -4018,11 +4018,11 @@
     }
 
     .p-picklist .p-picklist-filter-container .p-picklist-filter-input {
-        padding-right: 2rem;
+        padding-inline-end: 2rem;
     }
 
     .p-picklist .p-picklist-filter-container .p-picklist-filter-icon {
-        right: 1rem;
+        inset-inline-end: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
@@ -4151,7 +4151,7 @@
     }
 
     .p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
         width: 2.5rem;
         height: 2.5rem;
         color: rgba(255, 255, 255, 0.6);
@@ -4174,12 +4174,12 @@
     }
 
     .p-tree .p-tree-container .p-treenode .p-treenode-content .p-treenode-icon {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
     .p-tree .p-tree-container .p-treenode .p-treenode-content .p-checkbox {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-tree .p-tree-container .p-treenode .p-treenode-content .p-checkbox .p-indeterminate .p-checkbox-icon {
@@ -4233,17 +4233,18 @@
 
     .p-tree .p-tree-filter-container .p-tree-filter {
         width: 100%;
-        padding-right: 2rem;
+        padding-inline-end: 2rem;
     }
 
     .p-tree .p-tree-filter-container .p-tree-filter-icon {
-        right: 1rem;
+        inset-inline-end: 1rem;
         color: rgba(255, 255, 255, 0.6);
     }
 
     .p-tree .p-treenode-children {
-        padding: 0 0 0 1rem;
-    }
+    padding: 0;
+    padding-inline-start: 1rem;
+  }
 
     .p-tree .p-tree-loading-icon {
         font-size: 2rem;
@@ -4277,16 +4278,16 @@
     }
 
     .p-tree.p-tree-horizontal .p-treenode .p-treenode-content .p-tree-toggler {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-tree.p-tree-horizontal .p-treenode .p-treenode-content .p-treenode-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-tree.p-tree-horizontal .p-treenode .p-treenode-content .p-checkbox {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-tree.p-tree-horizontal .p-treenode .p-treenode-content .p-treenode-label:not(.p-highlight):hover {
@@ -4360,7 +4361,7 @@
 
     .p-treetable .p-sortable-column .p-sortable-column-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-treetable .p-sortable-column .p-sortable-column-badge {
@@ -4370,7 +4371,7 @@
         line-height: 1.143rem;
         color: #9FA8DA;
         background: rgba(159, 168, 218, 0.16);
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-treetable .p-sortable-column:not(.p-highlight):hover {
@@ -4412,7 +4413,7 @@
         background: transparent;
         border-radius: 50%;
         transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:enabled:hover {
@@ -4433,7 +4434,7 @@
     }
 
     .p-treetable .p-treetable-tbody > tr > td p-treetablecheckbox .p-checkbox {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-treetable .p-treetable-tbody > tr > td p-treetablecheckbox .p-checkbox .p-indeterminate .p-checkbox-icon {
@@ -4592,8 +4593,8 @@
         border-width: 0 0 1px 0;
         padding: 1rem 1rem;
         font-weight: 500;
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-end-start-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-accordion .p-accordion-header .p-accordion-header-link {
@@ -4607,7 +4608,7 @@
     }
 
     .p-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-accordion .p-accordion-header:not(.p-disabled) .p-accordion-header-link:focus-visible {
@@ -4626,8 +4627,8 @@
         background: #1e1e1e;
         border-color: transparent;
         color: rgba(255, 255, 255, 0.87);
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
+        border-end-end-radius: 0;
+        border-end-start-radius: 0;
     }
 
     .p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link {
@@ -4642,10 +4643,10 @@
         background: #1e1e1e;
         color: rgba(255, 255, 255, 0.87);
         border-top: 0;
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-start-end-radius: 0;
+        border-start-start-radius: 0;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-accordion p-accordiontab .p-accordion-tab {
@@ -4669,18 +4670,18 @@
     }
 
     .p-accordion p-accordiontab:first-child .p-accordion-header .p-accordion-header-link {
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-accordion p-accordiontab:last-child .p-accordion-header:not(.p-highlight) .p-accordion-header-link {
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-accordion p-accordiontab:last-child .p-accordion-content {
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-card {
@@ -4737,7 +4738,7 @@
     }
 
     .p-divider.p-divider-vertical:before {
-        border-left: 1px rgba(255, 255, 255, 0.12);
+        border-inline-start: 1px rgba(255, 255, 255, 0.12);
     }
 
     .p-divider.p-divider-vertical .p-divider-content {
@@ -4773,7 +4774,7 @@
     }
 
     .p-fieldset.p-fieldset-toggleable .p-fieldset-legend a .p-fieldset-toggler {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-fieldset.p-fieldset-toggleable .p-fieldset-legend a:focus-visible {
@@ -4797,8 +4798,8 @@
         padding: 1rem;
         background: #1e1e1e;
         color: rgba(255, 255, 255, 0.87);
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-panel .p-panel-header .p-panel-title {
@@ -4840,8 +4841,8 @@
     }
 
     .p-panel .p-panel-content:last-child {
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-panel .p-panel-footer {
@@ -4849,19 +4850,19 @@
         border: 1px solid rgba(255, 255, 255, 0.12);
         background: #1e1e1e;
         color: rgba(255, 255, 255, 0.87);
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
         border-top: 0 none;
     }
 
     .p-panel .p-panel-icons-end {
         order: 2;
-        margin-left: auto;
+        margin-inline-start: auto;
     }
 
     .p-panel .p-panel-icons-start {
         order: 0;
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-panel .p-panel-icons-center {
@@ -4919,7 +4920,7 @@
     }
 
     .p-tabview .p-tabview-nav li {
-        margin-right: 0;
+        margin-inline-end: 0;
     }
 
     .p-tabview .p-tabview-nav li .p-tabview-nav-link {
@@ -4930,8 +4931,8 @@
         color: rgba(255, 255, 255, 0.6);
         padding: 1rem 1.5rem;
         font-weight: 500;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
         transition: none;
         margin: 0 0 0 0;
     }
@@ -4955,15 +4956,15 @@
     }
 
     .p-tabview .p-tabview-left-icon {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-tabview .p-tabview-right-icon {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-tabview .p-tabview-close {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-tabview .p-tabview-nav-btn.p-link {
@@ -4985,8 +4986,8 @@
         padding: 1rem;
         border: 0 none;
         color: rgba(255, 255, 255, 0.87);
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-toolbar {
@@ -5100,7 +5101,7 @@
     }
 
     .p-stepper .p-stepper-header .p-stepper-action .p-stepper-title {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
         color: rgba(255, 255, 255, 0.87);
         font-weight: 500;
         transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
@@ -5173,7 +5174,7 @@
 
     .p-stepper.p-stepper-vertical .p-stepper-panel .p-stepper-content {
         width: 100%;
-        padding-left: 1rem;
+        padding-inline-start: 1rem;
     }
 
     .p-stepper.p-stepper-vertical .p-stepper-panel .p-stepper-separator {
@@ -5188,7 +5189,7 @@
     }
 
     .p-stepper.p-stepper-vertical .p-stepper-panel:last-of-type .p-stepper-content {
-        padding-left: 3rem;
+        padding-inline-start: 3rem;
     }
 
     .p-confirm-popup {
@@ -5247,7 +5248,7 @@
     }
 
     .p-confirm-popup .p-confirm-popup-message {
-        margin-left: 1rem;
+        margin-inline-start: 1rem;
     }
 
     .p-dialog {
@@ -5261,8 +5262,8 @@
         background: #262626;
         color: rgba(255, 255, 255, 0.87);
         padding: 1.5rem;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-dialog .p-dialog-header .p-dialog-title {
@@ -5278,7 +5279,7 @@
         background: transparent;
         border-radius: 50%;
         transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-dialog .p-dialog-header .p-dialog-header-icon:enabled:hover {
@@ -5294,7 +5295,7 @@
     }
 
     .p-dialog .p-dialog-header .p-dialog-header-icon:last-child {
-        margin-right: 0;
+        margin-inline-end: 0;
     }
 
     .p-dialog .p-dialog-content {
@@ -5304,8 +5305,8 @@
     }
 
     .p-dialog .p-dialog-content:last-of-type {
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-dialog .p-dialog-footer {
@@ -5314,8 +5315,8 @@
         color: rgba(255, 255, 255, 0.87);
         padding: 1rem 1.5rem;
         text-align: right;
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-dialog .p-dialog-footer button {
@@ -5333,7 +5334,7 @@
     }
 
     .p-dialog.p-confirm-dialog .p-confirm-dialog-message {
-        margin-left: 1rem;
+        margin-inline-start: 1rem;
     }
 
     .p-overlaypanel {
@@ -5357,7 +5358,7 @@
         border-radius: 50%;
         position: absolute;
         top: -1.25rem;
-        right: -1.25rem;
+        inset-inline-end: -1.25rem;
     }
 
     .p-overlaypanel .p-overlaypanel-close:enabled:hover {
@@ -5442,11 +5443,11 @@
     }
 
     .p-tooltip.p-tooltip-right .p-tooltip-arrow {
-        border-right-color: #444444;
+        border-inline-end-color: #444444;
     }
 
     .p-tooltip.p-tooltip-left .p-tooltip-arrow {
-        border-left-color: #444444;
+        border-inline-start-color: #444444;
     }
 
     .p-tooltip.p-tooltip-top .p-tooltip-arrow {
@@ -5463,12 +5464,12 @@
         border: 1px solid rgba(255, 255, 255, 0.12);
         color: rgba(255, 255, 255, 0.87);
         border-bottom: 0 none;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-fileupload .p-fileupload-buttonbar .p-button {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-fileupload .p-fileupload-buttonbar .p-button.p-fileupload-choose.p-focus {
@@ -5482,8 +5483,8 @@
         padding: 2rem 1rem;
         border: 1px solid rgba(255, 255, 255, 0.12);
         color: rgba(255, 255, 255, 0.87);
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-fileupload .p-fileupload-content.p-fileupload-highlight {
@@ -5595,7 +5596,7 @@
 
     .p-contextmenu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-contextmenu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-submenu-icon {
@@ -5775,7 +5776,7 @@
 
     .p-megamenu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-megamenu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-submenu-icon {
@@ -5842,8 +5843,8 @@
         color: rgba(255, 255, 255, 0.6);
         background: transparent;
         font-weight: 400;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-megamenu .p-submenu-list {
@@ -5878,12 +5879,12 @@
 
     .p-megamenu.p-megamenu-horizontal .p-megamenu-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-megamenu.p-megamenu-horizontal .p-megamenu-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-submenu-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-megamenu.p-megamenu-horizontal .p-megamenu-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
@@ -5927,7 +5928,7 @@
 
     .p-menu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-menu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-submenu-icon {
@@ -5992,8 +5993,8 @@
         color: rgba(255, 255, 255, 0.6);
         background: transparent;
         font-weight: 400;
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
+        border-start-end-radius: 0;
+        border-start-start-radius: 0;
     }
 
     .p-menu .p-menuitem-separator {
@@ -6010,9 +6011,9 @@
         height: 1.5rem;
         line-height: 1.5rem;
         border-radius: 4px;
-        margin-left: 0.5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        margin-inline-start: 0.5rem;
+        padding-inline-start: 0.5rem;
+        padding-inline-end: 0.5rem;
     }
 
     .p-menubar {
@@ -6044,12 +6045,12 @@
 
     .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-submenu-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
@@ -6084,7 +6085,7 @@
 
     .p-menubar .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-menubar .p-menuitem > .p-menuitem-content .p-menuitem-link .p-submenu-icon {
@@ -6205,7 +6206,7 @@
         }
 
         .p-menubar .p-menubar-root-list .p-menuitem .p-menuitem-content .p-menuitem-link .p-submenu-icon {
-            margin-left: auto;
+            margin-inline-start: auto;
             transition: transform 0.2s;
         }
 
@@ -6235,30 +6236,30 @@
         }
 
         .p-menubar .p-menubar-root-list .p-submenu-list .p-menuitem .p-menuitem-content .p-menuitem-link {
-            padding-left: 3rem;
+            padding-inline-start: 3rem;
         }
 
         .p-menubar .p-menubar-root-list .p-submenu-list .p-menuitem .p-submenu-list .p-menuitem .p-menuitem-content .p-menuitem-link {
-            padding-left: 5rem;
+            padding-inline-start: 5rem;
         }
 
         .p-menubar .p-menubar-root-list .p-submenu-list .p-menuitem .p-submenu-list .p-menuitem .p-submenu-list .p-menuitem .p-menuitem-content .p-menuitem-link {
-            padding-left: 7rem;
+            padding-inline-start: 7rem;
         }
 
         .p-menubar .p-menubar-root-list .p-submenu-list .p-menuitem .p-submenu-list .p-menuitem .p-submenu-list .p-menuitem .p-submenu-list .p-menuitem .p-menuitem-content .p-menuitem-link {
-            padding-left: 9rem;
+            padding-inline-start: 9rem;
         }
 
         .p-menubar .p-menubar-root-list .p-submenu-list .p-menuitem .p-submenu-list .p-menuitem .p-submenu-list .p-menuitem .p-submenu-list .p-menuitem .p-submenu-list .p-menuitem .p-menuitem-content .p-menuitem-link {
-            padding-left: 11rem;
+            padding-inline-start: 11rem;
         }
 
         .p-menubar.p-menubar-mobile-active .p-menubar-root-list {
             display: flex;
             flex-direction: column;
             top: 100%;
-            left: 0;
+            inset-inline-start: 0;
             z-index: 1;
         }
     }
@@ -6281,11 +6282,11 @@
     }
 
     .p-panelmenu .p-panelmenu-header .p-panelmenu-header-content .p-panelmenu-header-action .p-submenu-icon {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-panelmenu .p-panelmenu-header .p-panelmenu-header-content .p-panelmenu-header-action .p-menuitem-icon {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-panelmenu .p-panelmenu-header:not(.p-disabled):focus-visible .p-panelmenu-header-content {
@@ -6304,8 +6305,8 @@
         background: #1e1e1e;
         border-color: transparent;
         color: rgba(255, 255, 255, 0.87);
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
+        border-end-end-radius: 0;
+        border-end-start-radius: 0;
         margin-bottom: 0;
     }
 
@@ -6321,10 +6322,10 @@
         background: #1e1e1e;
         color: rgba(255, 255, 255, 0.87);
         border-top: 0;
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-start-end-radius: 0;
+        border-start-start-radius: 0;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-panelmenu .p-panelmenu-content .p-panelmenu-root-list {
@@ -6349,7 +6350,7 @@
 
     .p-panelmenu .p-panelmenu-content .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-panelmenu .p-panelmenu-content .p-menuitem > .p-menuitem-content .p-menuitem-link .p-submenu-icon {
@@ -6403,7 +6404,7 @@
     }
 
     .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-content .p-menuitem-link .p-submenu-icon {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-panelmenu .p-panelmenu-content .p-menuitem-separator {
@@ -6436,18 +6437,18 @@
     }
 
     .p-panelmenu .p-panelmenu-panel:first-child .p-panelmenu-header .p-panelmenu-header-content {
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
     }
 
     .p-panelmenu .p-panelmenu-panel:last-child .p-panelmenu-header:not(.p-highlight) .p-panelmenu-header-content {
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-panelmenu .p-panelmenu-panel:last-child .p-panelmenu-content {
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-end-end-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-slidemenu {
@@ -6485,7 +6486,7 @@
 
     .p-slidemenu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-slidemenu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-submenu-icon {
@@ -6585,9 +6586,9 @@
         height: 1.5rem;
         line-height: 1.5rem;
         border-radius: 4px;
-        margin-left: 0.5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        margin-inline-start: 0.5rem;
+        padding-inline-start: 0.5rem;
+        padding-inline-end: 0.5rem;
     }
 
     .p-steps .p-steps-item .p-menuitem-link {
@@ -6635,7 +6636,7 @@
         border-top: 1px solid rgba(255, 255, 255, 0.12);
         width: 100%;
         top: 50%;
-        left: 0;
+        inset-inline-start: 0;
         display: block;
         position: absolute;
         margin-top: -1rem;
@@ -6656,13 +6657,13 @@
         height: 1.5rem;
         line-height: 1.5rem;
         border-radius: 4px;
-        margin-left: 0.5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        margin-inline-start: 0.5rem;
+        padding-inline-start: 0.5rem;
+        padding-inline-end: 0.5rem;
     }
 
     .p-tabmenu .p-tabmenu-nav .p-tabmenuitem {
-        margin-right: 0;
+        margin-inline-end: 0;
     }
 
     .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
@@ -6673,14 +6674,14 @@
         color: rgba(255, 255, 255, 0.6);
         padding: 1rem 1.5rem;
         font-weight: 500;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
+        border-start-end-radius: 4px;
+        border-start-start-radius: 4px;
         transition: none;
         margin: 0 0 0 0;
     }
 
     .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link .p-menuitem-icon {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:not(.p-disabled):focus-visible {
@@ -6702,11 +6703,11 @@
     }
 
     .p-tabmenu .p-tabmenu-left-icon {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-tabmenu .p-tabmenu-right-icon {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-tabmenu .p-tabmenu-nav-btn.p-link {
@@ -6768,7 +6769,7 @@
 
     .p-tieredmenu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-icon {
         color: rgba(255, 255, 255, 0.6);
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-tieredmenu .p-menuitem > .p-menuitem-content .p-menuitem-link .p-submenu-icon {
@@ -6887,7 +6888,7 @@
 
     .p-inline-message .p-inline-message-icon {
         font-size: 1rem;
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-inline-message .p-icon {
@@ -6900,7 +6901,7 @@
     }
 
     .p-inline-message.p-inline-message-icon-only .p-inline-message-icon {
-        margin-right: 0;
+        margin-inline-end: 0;
     }
 
     .p-message {
@@ -6997,7 +6998,7 @@
 
     .p-message .p-message-icon {
         font-size: 1.5rem;
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-message .p-icon {
@@ -7010,7 +7011,7 @@
     }
 
     .p-message .p-message-detail {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-message.p-message-secondary {
@@ -7246,7 +7247,7 @@
     }
 
     .p-galleria.p-galleria-indicators-bottom .p-galleria-indicator, .p-galleria.p-galleria-indicators-top .p-galleria-indicator {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-galleria.p-galleria-indicators-left .p-galleria-indicator, .p-galleria.p-galleria-indicators-right .p-galleria-indicator {
@@ -7327,11 +7328,11 @@
         height: 3rem;
         border-radius: 50%;
         transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-image-action.p-link:last-child {
-        margin-right: 0;
+        margin-inline-end: 0;
     }
 
     .p-image-action.p-link:hover {
@@ -7445,18 +7446,18 @@
     }
 
     .p-chip .p-chip-icon {
-        margin-right: 0.5rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-chip .pi-chip-remove-icon {
-        margin-left: 0.5rem;
+        margin-inline-start: 0.5rem;
     }
 
     .p-chip img {
         width: 2.5rem;
         height: 2.5rem;
-        margin-left: -1rem;
-        margin-right: 0.5rem;
+        margin-inline-start: -1rem;
+        margin-inline-end: 0.5rem;
     }
 
     .p-chip .pi-chip-remove-icon {
@@ -7575,13 +7576,13 @@
     }
 
     .p-metergroup.p-metergroup-horizontal .p-metergroup-meter:first-of-type {
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-start-start-radius: 4px;
+        border-end-start-radius: 4px;
     }
 
     .p-metergroup.p-metergroup-horizontal .p-metergroup-meter:last-of-type {
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-start-end-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-metergroup.p-metergroup-vertical {
@@ -7594,13 +7595,13 @@
     }
 
     .p-metergroup.p-metergroup-vertical .p-metergroup-meter:first-of-type {
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
+        border-start-start-radius: 4px;
+        border-start-end-radius: 4px;
     }
 
     .p-metergroup.p-metergroup-vertical .p-metergroup-meter:last-of-type {
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-end-start-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-progressbar {
@@ -7686,7 +7687,7 @@
     }
 
     .p-tag .p-tag-icon {
-        margin-right: 0.25rem;
+        margin-inline-end: 0.25rem;
         font-size: 0.75rem;
     }
 
@@ -7729,18 +7730,18 @@
     }
 
     .p-accordion .p-accordion-tab:first-child {
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
+        border-start-start-radius: 4px;
+        border-start-end-radius: 4px;
     }
 
     .p-accordion .p-accordion-tab:last-child {
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-end-start-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-accordion .p-accordion-tab .p-accordion-toggle-icon {
         order: 1;
-        margin-left: auto;
+        margin-inline-start: auto;
         transition: transform 0.2s;
     }
 
@@ -7773,8 +7774,8 @@
     }
 
     .p-input-filled .p-autocomplete .p-autocomplete-multiple-container {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        border-end-start-radius: 0;
+        border-end-end-radius: 0;
         border: 1px solid transparent;
         background: rgba(255, 255, 255, 0.06) no-repeat;
         background-image: linear-gradient(to bottom, #9FA8DA, #9FA8DA), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
@@ -8193,8 +8194,8 @@
     }
 
     .p-input-filled .p-calendar-w-btn {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        border-end-start-radius: 0;
+        border-end-end-radius: 0;
         border: 1px solid transparent;
         background: rgba(255, 255, 255, 0.06) no-repeat;
         background-image: linear-gradient(to bottom, #9FA8DA, #9FA8DA), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
@@ -8277,8 +8278,8 @@
     }
 
     .p-input-filled .p-cascadeselect {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        border-end-start-radius: 0;
+        border-end-end-radius: 0;
         border: 1px solid transparent;
         background: rgba(255, 255, 255, 0.06) no-repeat;
         background-image: linear-gradient(to bottom, #9FA8DA, #9FA8DA), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
@@ -8393,8 +8394,8 @@
         content: "";
         position: absolute;
         top: 6px;
-        left: 1px;
-        border-right: 2px solid transparent;
+        inset-inline-start: 1px;
+        border-inline-end: 2px solid transparent;
         border-bottom: 2px solid transparent;
         transform: rotate(45deg);
         transform-origin: 0% 100%;
@@ -8449,8 +8450,8 @@
     }
 
     .p-input-filled .p-chips-multiple-container {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        border-end-start-radius: 0;
+        border-end-end-radius: 0;
         border: 1px solid transparent;
         background: rgba(255, 255, 255, 0.06) no-repeat;
         background-image: linear-gradient(to bottom, #9FA8DA, #9FA8DA), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
@@ -8575,8 +8576,8 @@
     }
 
     .p-input-filled .p-dropdown {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        border-end-start-radius: 0;
+        border-end-end-radius: 0;
         border: 1px solid transparent;
         background: rgba(255, 255, 255, 0.06) no-repeat;
         background-image: linear-gradient(to bottom, #9FA8DA, #9FA8DA), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
@@ -8653,8 +8654,8 @@
     }
 
     .p-input-filled .p-inputtext {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        border-end-start-radius: 0;
+        border-end-end-radius: 0;
         border: 1px solid transparent;
         background: rgba(255, 255, 255, 0.06) no-repeat;
         background-image: linear-gradient(to bottom, #9FA8DA, #9FA8DA), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
@@ -8687,8 +8688,8 @@
     }
 
     .p-input-filled .p-inputgroup .p-inputgroup-addon {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        border-end-start-radius: 0;
+        border-end-end-radius: 0;
         border: 1px solid transparent;
         background: rgba(255, 255, 255, 0.06) no-repeat;
         background-image: linear-gradient(to bottom, #9FA8DA, #9FA8DA), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
@@ -8698,27 +8699,27 @@
     }
 
     .p-input-filled .p-inputgroup .p-inputgroup-addon:last-child {
-        border-right-color: transparent;
+        border-inline-end-color: transparent;
     }
 
     .p-input-filled .p-inputgroup-addon:first-child,
     .p-input-filled .p-inputgroup button:first-child,
     .p-input-filled .p-inputgroup input:first-child {
-        border-bottom-left-radius: 0;
+        border-end-start-radius: 0;
     }
 
     .p-input-filled .p-inputgroup .p-float-label:first-child input {
-        border-bottom-left-radius: 0;
+        border-end-start-radius: 0;
     }
 
     .p-input-filled .p-inputgroup-addon:last-child,
     .p-input-filled .p-inputgroup button:last-child,
     .p-input-filled .p-inputgroup input:last-child {
-        border-bottom-right-radius: 0;
+        border-end-end-radius: 0;
     }
 
     .p-input-filled .p-inputgroup .p-float-label:last-child input {
-        border-bottom-right-radius: 0;
+        border-end-end-radius: 0;
     }
 
     p-inputmask.ng-dirty.ng-invalid .p-inputtext:enabled:focus {
@@ -8787,7 +8788,7 @@
         top: -0.5rem !important;
         background-color: #1e1e1e;
         padding: 2px 4px;
-        margin-left: -4px;
+        margin-inline-start: -4px;
         margin-top: 0;
     }
 
@@ -8878,8 +8879,8 @@
     }
 
     .p-input-filled .p-multiselect {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        border-end-start-radius: 0;
+        border-end-end-radius: 0;
         border: 1px solid transparent;
         background: rgba(255, 255, 255, 0.06) no-repeat;
         background-image: linear-gradient(to bottom, #9FA8DA, #9FA8DA), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
@@ -9017,19 +9018,19 @@
     }
 
     .p-panelmenu .p-panelmenu-panel:first-child {
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
+        border-start-start-radius: 4px;
+        border-start-end-radius: 4px;
     }
 
     .p-panelmenu .p-panelmenu-panel:last-child {
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-end-start-radius: 4px;
+        border-end-end-radius: 4px;
     }
 
     .p-panelmenu .p-panelmenu-panel .p-panelmenu-header .p-panelmenu-icon {
         order: 1;
-        margin-left: auto;
-        margin-right: 0;
+        margin-inline-start: auto;
+        margin-inline-end: 0;
     }
 
     .p-panelmenu .p-panelmenu-panel .p-panelmenu-header.p-disabled {
@@ -9181,7 +9182,7 @@
 
     .p-steps .p-steps-item:before {
         position: static;
-        left: auto;
+        inset-inline-start: auto;
         top: auto;
         margin-top: 0;
     }
@@ -9212,7 +9213,7 @@
 
     .p-steps .p-steps-item .p-menuitem-link .p-steps-title {
         margin: 0;
-        padding-left: 0.5rem;
+        padding-inline-start: 0.5rem;
     }
 
     .p-steps .p-steps-item .p-menuitem-link:not(.p-disabled):focus {
@@ -9299,8 +9300,8 @@
     }
 
     .p-input-filled .p-treeselect {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        border-end-start-radius: 0;
+        border-end-end-radius: 0;
         border: 1px solid transparent;
         background: rgba(255, 255, 255, 0.06) no-repeat;
         background-image: linear-gradient(to bottom, #9FA8DA, #9FA8DA), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
@@ -9479,7 +9480,7 @@
     }
 
     .p-splitbutton.p-button-outlined > .p-button.p-splitbutton-menubutton {
-        margin-left: -1px;
+        margin-inline-start: -1px;
         width: calc(3rem + 1px);
     }
 

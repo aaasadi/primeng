@@ -3034,8 +3034,8 @@ export class Table implements OnInit, AfterViewInit, AfterContentInit, Blockable
 
         #${this.id}.p-datatable-gridlines > .p-datatable-wrapper > .p-datatable-table > .p-datatable-tbody > tr > td:last-child {
             border-top: 0;
-            border-right: 0;
-            border-left: 0;
+            border-inline-end: 0;
+            border-inline-start: 0;
         }
 
         #${this.id}-table > .p-datatable-tbody > tr > td > .p-column-title {

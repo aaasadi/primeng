@@ -3731,7 +3731,7 @@ export class TTRow {
             pRipple
             [ngStyle]="{
                 visibility: rowNode.node.leaf === false || (rowNode.node.children && rowNode.node.children.length) ? 'visible' : 'hidden',
-                'margin-left': rowNode.level * 16 + 'px'
+                'margin-inline-start': rowNode.level * 16 + 'px'
             }"
             [attr.data-pc-section]="'rowtoggler'"
             [attr.data-pc-group-section]="'rowactionbutton'"

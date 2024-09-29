@@ -1641,12 +1641,12 @@ export class PickList implements AfterViewChecked, AfterContentInit {
                     }
 
                     .p-picklist[${this.id}] .p-picklist-buttons .p-button {
-                        margin-right: var(--inline-spacing);
+                        margin-inline-end: var(--inline-spacing);
                         margin-bottom: 0;
                     }
 
                     .p-picklist[${this.id}] .p-picklist-buttons .p-button:last-child {
-                        margin-right: 0;
+                        margin-inline-end: 0;
                     }
                 }`;
 

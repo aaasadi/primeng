@@ -65,7 +65,7 @@
     .p-buttonset .p-button:not(:last-child):hover,
     .p-buttonset p-button:not(:last-child) .p-button,
     .p-buttonset p-button:not(:last-child) .p-button:hover {
-        border-right: 0 none;
+        border-inline-end: 0 none;
     }
 
     .p-button-group .p-button:not(:first-of-type):not(:last-of-type),
