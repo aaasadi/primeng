@@ -2739,7 +2739,7 @@
     font-weight: normal;
   }
   .p-datatable .p-datatable-thead > tr > th {
-    text-align: left;
+    text-align: start;
     padding: 0.571rem 0.857rem;
     border: 1px solid #c8c8c8;
     border-width: 1px 1px 1px 1px;
@@ -2749,7 +2749,7 @@
     transition: background-color 0.2s, box-shadow 0.2s;
   }
   .p-datatable .p-datatable-tfoot > tr > td {
-    text-align: left;
+    text-align: start;
     padding: 0.571rem 0.857rem;
     border: 1px solid #c8c8c8;
     border-width: 1px;
@@ -2801,7 +2801,7 @@
     transition: background-color 0.2s, box-shadow 0.2s;
   }
   .p-datatable .p-datatable-tbody > tr > td {
-    text-align: left;
+    text-align: start;
     border: 1px solid #c8c8c8;
     border-width: 1px;
     padding: 0.571rem 0.857rem;
@@ -3644,7 +3644,7 @@
     font-weight: normal;
   }
   .p-treetable .p-treetable-thead > tr > th {
-    text-align: left;
+    text-align: start;
     padding: 0.571rem 0.857rem;
     border: 1px solid #c8c8c8;
     border-width: 1px 1px 1px 1px;
@@ -3654,7 +3654,7 @@
     transition: background-color 0.2s, box-shadow 0.2s;
   }
   .p-treetable .p-treetable-tfoot > tr > td {
-    text-align: left;
+    text-align: start;
     padding: 0.571rem 0.857rem;
     border: 1px solid #c8c8c8;
     border-width: 1px;
@@ -3698,7 +3698,7 @@
     transition: background-color 0.2s, box-shadow 0.2s;
   }
   .p-treetable .p-treetable-tbody > tr > td {
-    text-align: left;
+    text-align: start;
     border: 1px solid #c8c8c8;
     border-width: 1px;
     padding: 0.571rem 0.857rem;
@@ -4356,7 +4356,7 @@
     padding: 0.571rem 1rem;
   }
   .p-confirm-popup .p-confirm-popup-footer {
-    text-align: right;
+    text-align: end;
     padding: 0.571rem 1rem;
   }
   .p-confirm-popup .p-confirm-popup-footer button {
@@ -4447,7 +4447,7 @@
     background: #ffffff;
     color: #333333;
     padding: 0.571rem 1rem;
-    text-align: right;
+    text-align: end;
     border-end-end-radius: 3px;
     border-end-start-radius: 3px;
   }

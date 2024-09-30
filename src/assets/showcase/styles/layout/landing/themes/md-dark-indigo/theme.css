@@ -1278,7 +1278,7 @@
   font-weight: 500;
 }
 .landing-themes .p-datatable .p-datatable-thead > tr > th {
-  text-align: left;
+  text-align: start;
   padding: 1rem 1rem;
   border: 1px solid #404040;
   border-width: 0 0 1px 0;
@@ -1288,7 +1288,7 @@
   transition: none;
 }
 .landing-themes .p-datatable .p-datatable-tfoot > tr > td {
-  text-align: left;
+  text-align: start;
   padding: 1rem 1rem;
   border: 1px solid 3404040;
   border-width: 0 0 1px 0;
@@ -1340,7 +1340,7 @@
   transition: none;
 }
 .landing-themes .p-datatable .p-datatable-tbody > tr > td {
-  text-align: left;
+  text-align: start;
   border: 1px solid #404040;
   border-width: 0 0 1px 0;
   padding: 1rem 1rem;

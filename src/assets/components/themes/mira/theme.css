@@ -2753,7 +2753,7 @@
     font-weight: 600;
   }
   .p-datatable .p-datatable-thead > tr > th {
-    text-align: left;
+    text-align: start;
     padding: 1rem 1rem;
     border: 1px solid #ffffff;
     border-width: 0 0 1px 0;
@@ -2763,7 +2763,7 @@
     transition: none;
   }
   .p-datatable .p-datatable-tfoot > tr > td {
-    text-align: left;
+    text-align: start;
     padding: 1rem 1rem;
     border: 1px solid #ffffff;
     border-width: 0 0 1px 0;
@@ -2815,7 +2815,7 @@
     transition: none;
   }
   .p-datatable .p-datatable-tbody > tr > td {
-    text-align: left;
+    text-align: start;
     border: 1px solid #eceff4;
     border-width: 0 0 1px 0;
     padding: 1rem 1rem;
@@ -3658,7 +3658,7 @@
     font-weight: 600;
   }
   .p-treetable .p-treetable-thead > tr > th {
-    text-align: left;
+    text-align: start;
     padding: 1rem 1rem;
     border: 1px solid #ffffff;
     border-width: 0 0 1px 0;
@@ -3668,7 +3668,7 @@
     transition: none;
   }
   .p-treetable .p-treetable-tfoot > tr > td {
-    text-align: left;
+    text-align: start;
     padding: 1rem 1rem;
     border: 1px solid #ffffff;
     border-width: 0 0 1px 0;
@@ -3712,7 +3712,7 @@
     transition: none;
   }
   .p-treetable .p-treetable-tbody > tr > td {
-    text-align: left;
+    text-align: start;
     border: 1px solid #eceff4;
     border-width: 0 0 1px 0;
     padding: 1rem 1rem;
@@ -4394,7 +4394,7 @@
     padding: 1rem;
   }
   .p-confirm-popup .p-confirm-popup-footer {
-    text-align: right;
+    text-align: end;
     padding: 0.5rem 1rem;
   }
   .p-confirm-popup .p-confirm-popup-footer button {
@@ -4485,7 +4485,7 @@
     background: #ffffff;
     color: #4c566a;
     padding: 0 1.5rem 1.5rem 1.5rem;
-    text-align: right;
+    text-align: end;
     border-end-end-radius: 4px;
     border-end-start-radius: 4px;
   }

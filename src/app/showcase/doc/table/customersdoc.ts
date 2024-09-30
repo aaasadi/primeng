@@ -635,7 +635,7 @@ import { ProgressBarModule } from 'primeng/progressbar';
         .p-datatable.p-datatable-customers {
             .p-datatable-header {
                 padding: 1rem;
-                text-align: left;
+                text-align: start;
                 font-size: 1.5rem;
             }
 
@@ -644,7 +644,7 @@ import { ProgressBarModule } from 'primeng/progressbar';
             }
 
             .p-datatable-thead > tr > th {
-                text-align: left;
+                text-align: start;
             }
 
             .p-datatable-tbody > tr > td {
@@ -679,7 +679,7 @@ import { ProgressBarModule } from 'primeng/progressbar';
                         border-bottom: 1px solid var(--layer-2);
 
                         > td {
-                            text-align: left;
+                            text-align: start;
                             width: 100%;
                             display: flex;
                             align-items: center;

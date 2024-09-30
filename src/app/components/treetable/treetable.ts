@@ -62,6 +62,7 @@ import {
     TreeTablePaginatorState,
     TreeTableSortEvent
 } from './treetable.interface';
+import { ChevronLeftIcon } from 'primeng/icons/chevronleft';
 
 @Injectable()
 export class TreeTableService {
@@ -3739,7 +3740,11 @@ export class TTRow {
         >
             <ng-container *ngIf="!tt.togglerIconTemplate">
                 <ChevronDownIcon *ngIf="rowNode.node.expanded" [attr.aria-hidden]="true" />
-                <ChevronRightIcon *ngIf="!rowNode.node.expanded" [attr.aria-hidden]="true" />
+                @if(isRTL) {
+                    <ChevronLeftIcon *ngIf="!rowNode.node.expanded" [attr.aria-hidden]="true" />
+                } @else {
+                    <ChevronRightIcon *ngIf="!rowNode.node.expanded" [attr.aria-hidden]="true" />
+                }
             </ng-container>
             <ng-template *ngTemplateOutlet="tt.togglerIconTemplate; context: { $implicit: rowNode.node.expanded }"></ng-template>
         </button>
@@ -3753,9 +3758,14 @@ export class TreeTableToggler {
     @Input() rowNode: any;
 
     constructor(
+        @Inject(DOCUMENT) private readonly document: Document,
         public tt: TreeTable,
         private config: PrimeNGConfig
     ) {}
+
+    public isRTL(): boolean {
+        return this.document.documentElement.dir === 'rtl';
+    }
 
     get toggleButtonAriaLabel() {
         return this.config.translation ? (this.rowNode.expanded ? this.config.translation.aria.collapseRow : this.config.translation.aria.expandRow) : undefined;
@@ -3784,7 +3794,7 @@ export class TreeTableToggler {
 }
 
 @NgModule({
-    imports: [CommonModule, PaginatorModule, RippleModule, ScrollerModule, SpinnerIcon, ArrowDownIcon, ArrowUpIcon, SortAltIcon, SortAmountUpAltIcon, SortAmountDownIcon, CheckIcon, MinusIcon, ChevronDownIcon, ChevronRightIcon],
+    imports: [CommonModule, PaginatorModule, RippleModule, ScrollerModule, SpinnerIcon, ArrowDownIcon, ArrowUpIcon, SortAltIcon, SortAmountUpAltIcon, SortAmountDownIcon, CheckIcon, MinusIcon, ChevronDownIcon, ChevronRightIcon, ChevronLeftIcon],
     exports: [
         TreeTable,
         SharedModule,
